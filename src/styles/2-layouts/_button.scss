@@ -1,0 +1,11 @@
+//import variables
+
+@import "../variables";
+
+.ui.button:hover{
+  background-color:$hov-color !important;
+  color:$btn-text-color;
+  
+  }
+
+ 

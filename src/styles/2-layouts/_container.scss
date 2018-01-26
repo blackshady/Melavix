@@ -1,0 +1,25 @@
+//import varaibles
+@import '../variables';
+
+
+div.con-wrapper{
+  margin-top: $con-margin;
+}
+
+div.home-bg{
+  background-image: url(components/images/homebg.jpg);
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  top: 0%;
+  left: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  //min-width: 100%;
+  min-height: 100%;
+  //width: auto;
+  //height: auto;
+  z-index: -100;  
+}

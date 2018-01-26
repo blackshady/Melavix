@@ -1,0 +1,23 @@
+//import varables
+@import '../variables';
+@import '../mixins';
+
+
+.ui.menu.Menu{
+  background:$brand-color;
+  border-radius: 0px;
+  padding: 0px;
+  margin-bottom: 10%;
+}
+.ui.button.btn {
+  @include brand-btn;
+}
+
+
+div.Menu-wrapper{
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 50px;
+}
+

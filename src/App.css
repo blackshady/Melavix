@@ -1,28 +1,70 @@
-.App {
-  text-align: center;
-}
+/**   COLORS*/
+/**   COLORS*/
+body {
+  margin: 0px;
+  background: #f7f7f8;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  height: 100%; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+form {
+  margin: 0px;
+  padding: 0px; }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+/**   COLORS*/
+div.con-wrapper {
+  margin-top: 50px; }
 
-.App-title {
-  font-size: 1.5em;
-}
+div.home-bg {
+  background-image: url(components/images/homebg.jpg);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0%;
+  left: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+  z-index: -100; }
 
-.App-intro {
-  font-size: large;
-}
+/**   COLORS*/
+.ui.button:hover {
+  background-color: #262c01 !important;
+  color: #ffff; }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+/**   COLORS*/
+/**   COLORS*/
+.ui.menu.Menu {
+  background: #00424F;
+  border-radius: 0px;
+  padding: 0px;
+  margin-bottom: 10%; }
+
+.ui.button.btn {
+  background: #00424F;
+  color: #ffff;
+  border-radius: 30px;
+  transition: all 0.3s ease 0s;
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; }
+
+div.Menu-wrapper {
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 50px; }
+
+/**   COLORS*/
+.ui.segment.login-cnt {
+  margin: 7% auto;
+  height: 100%; }
+
+.ui.header.login-text {
+  color: #00424F; }
+
+.ui.grid.forget_pass {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.ui.grid.sign_up {
+  margin: 10px auto; }

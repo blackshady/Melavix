@@ -1,0 +1,13 @@
+// import variables
+
+@import "./variables";
+
+
+@mixin brand-btn{
+  background:$brand-color;
+  color: $btn-text-color;
+  border-radius: $brand-btn-radius;
+  transition: all 0.3s ease 0s;
+  font-size:$brand-text-size;
+  font-family: $brand-font;
+}

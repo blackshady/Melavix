@@ -1,0 +1,20 @@
+// importb variables
+@import '../variables';
+
+
+.ui.segment.login-cnt{
+  margin:7% auto;
+  height: 100%;
+  }
+
+  .ui.header.login-text{
+    color:$brand-color;
+  }
+
+  .ui.grid.forget_pass{
+    margin-top:auto;
+    margin-bottom:auto;
+    }
+    .ui.grid.sign_up{
+    margin:10px auto;
+    }
